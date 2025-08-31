@@ -7,23 +7,26 @@
     <link rel="stylesheet" href="./style.css" />
   </head>
   <body>
-    <div>
-      <ul>
-        <li><a href="#home">Home</a></li>
-        <li><a href="#about">About</a></li>
-        <li><a href="#skills">Skills</a></li>
-        <li><a href="#projects">Projects</a></li>
-        <li><a href="#contact">Contact</a></li>
-      </ul>
-    </div>
-    <div id="home">
+    <h1>JOANNE MUNDIA-PORTFOLIO</h1>
+    <div class="profile">
       <img
         src="https://mail.google.com/mail/u/0?ui=2&ik=86b5a14d85&attid=0.1&permmsgid=msg-f:1841974631889683261&th=1990022b2310c33d&view=att&disp=safe&realattid=199002274b569cd24bd1&zw"
         alt="My Picture"
-        height="300"
-        width="300"
+        height="180"
+        width="180"
+        style="border-radius: 50%"
       />
-      <h1>JOANNE MUNDIA-PORTFOLIO</h1>
+      <nav class="links">
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+    <div id="home">
       <h3>HOME</h3>
       <p>
         I am Joanne ,an aspiring Software Developer who is passionate about
@@ -53,8 +56,8 @@
       <h5>Non-Technical</h5>
       <ul>
         <li>
-          Knitting-I am creative and consistent to ensure that I finish the
-          projects I have started
+          <span>Knitting</span>-I am creative and consistent to ensure that I
+          finish the projects I have started
         </li>
         <li>
           I used to play handball which helped me to realise the importance of
@@ -62,10 +65,11 @@
         </li>
       </ul>
     </div>
-    <div id="projects">
+    <section id="projects">
       <h3>PROJECTS</h3>
-      <ol>
-        <li>Personal Profile</li>
+
+      <div class="project-box">
+        <h4>Personal Profile</h4>
         <p>
           In this project,I used html and CSS .I used CSS to style it.THis is my
           personal profile where I described myself and my interests and added a
@@ -77,7 +81,10 @@
           width="150"
           height="150"
         />
-        <li>Restaurant Menu</li>
+      </div>
+
+      <div class="project-box">
+        <h4>Restaurant Menu</h4>
         <p>
           In this project I used html and CSS .HTML giving it the structure and
           CSS was the styling section.This is a restaurant menu I designed
@@ -89,8 +96,8 @@
           height="150"
           width="150"
         />
-      </ol>
-    </div>
+      </div>
+    </section>
     <div id="contact">
       <h3>CONTACT ME</h3>
       <form action="contact">
@@ -99,7 +106,7 @@
         <label for="email address">Email:</label>
         <input type="text" />
         <label for="message">Message:</label>
-        <input type="text" />
+        <input type="text" style="height: 50" />
         <button type="submit">submit</button>
       </form>
     </div>
