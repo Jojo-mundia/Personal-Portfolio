@@ -63,13 +63,17 @@ h3 {
   margin-top: 10px;
   display: block;
 }
-input [type="submit"] {
-  background-color: #0077b6;
-  color: white;
+button[type="submit"] {
+  background-color: white;
+  color: #0077b6;
   padding: 10px 20px;
   cursor: pointer;
   font-size: larger;
 }
-input [type="submit"] :hover {
+button[type="submit"] :hover {
   background-color: brown;
+  cursor: pointer;
+}
+h5 {
+  text-decoration: underline;
 }
