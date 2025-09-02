@@ -1,9 +1,10 @@
 body {
-  padding: 20px;
-  margin: 0 auto;
-  font-family: Arial, Helvetica, sans-serif;
+  padding: 30px;
+  margin: 40px auto;
+  font-family: Arial, sans-serif;
   max-width: 800px;
-  background-color: bisque;
+  background-color: lightgray;
+  outline: 300px solid black;
 }
 form {
   margin: auto;
@@ -12,9 +13,10 @@ form {
   max-width: 400px;
 }
 h1 {
-  color: grey;
+  color: rgb(92, 27, 27);
   font-weight: bolder;
   text-decoration: underline;
+  text-align: center;
 }
 h3 {
   text-decoration: underline;
@@ -35,7 +37,7 @@ h3 {
 }
 .links a:hover {
   text-decoration: underline;
-  color: blueviolet;
+  color: red;
 }
 h3 {
   color: blueviolet;
@@ -70,10 +72,22 @@ button[type="submit"] {
   cursor: pointer;
   font-size: larger;
 }
-button[type="submit"] :hover {
+button[type="submit"]:hover {
   background-color: brown;
   cursor: pointer;
 }
 h5 {
   text-decoration: underline;
+  color: green;
+}
+h3 {
+  color: blueviolet;
+}
+h3:hover {
+  text-decoration: underline;
+  color: orange;
+  cursor: pointer;
+}
+h4 {
+  color: green;
 }
